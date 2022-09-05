@@ -1,0 +1,37 @@
+
+PROG
+    var n,x,y
+    ;
+
+    PROC putCB(c, b) {
+        
+    ;
+        walk(n);
+        while (canWalk(north, 1)) do { walk(north, 1)} od
+        }
+    CROP
+
+    PROC goNorth() {
+        while (canWalk(north, 1)) do { walk(north, 1)} od;
+    }
+    CROP
+
+    PROC goWest() {
+        if(canWalk(west, 1)) { walk(west, 1) } fi;
+
+        if(canWalk(west, 1)) { walk(west, 1) } else { walk(west, 1) } ; 
+
+        repeatTimes 3 { walk(west, 1) } per;
+        
+        
+    }
+    CROP
+
+
+    {
+        veer(front);
+        go(3, 3);
+        x=3;
+    }
+
+GROP
